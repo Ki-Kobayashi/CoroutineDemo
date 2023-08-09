@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/flowPracFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.udemy_coroutine_prac.pages.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main"/>
+    <fragment
+        android:id="@+id/awaitFragment"
+        android:name="com.example.udemy_coroutine_prac.pages.await.AwaitFragment"
+        android:label="AwaitFragment"
+        tools:layout="@layout/fragment_await"/>
+    <fragment
+        android:id="@+id/flowPracFragment"
+        android:name="com.example.udemy_coroutine_prac.pages.flow_prac.FlowPracFragment"
+        android:label="FlowPracFragment"
+        tools:layout="@layout/fragment_flow_prac"/>
+</navigation>

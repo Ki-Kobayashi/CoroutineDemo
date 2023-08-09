@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Udemy_Coroutine_prac</string>
+    <string name="all_stock_text">Stock1:%1$d, Stock2: %2$d</string>
+</resources>
