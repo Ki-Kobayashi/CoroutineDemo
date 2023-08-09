@@ -1,2 +1,0 @@
-# CoroutineDemo
-コルーチンの基本
